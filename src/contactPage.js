@@ -36,7 +36,7 @@ const contactPageRender = (() => {
     }
 
     const render = function(){
-        let backgImage = '/Images/contactPicture.jpg'
+        let backgImage = 'Images/contactPicture.jpg'
         repeatingElements.repeatingButtonDiv();
         repeatingElements.repeatingHeaderDiv(backgImage);
         contactPage();

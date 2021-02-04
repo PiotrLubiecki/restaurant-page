@@ -11,13 +11,13 @@ const repeatingElements = (() => {
         const buttonDiv = document.createElement('div');
             buttonDiv.id = 'button-div';
             const logoImage = document.createElement('img');
-            logoImage.src = '/Images/Vector-ornament.png';
+            logoImage.src = 'Images/Vector-ornament.png';
             const logoImage1 = document.createElement('img');
-            logoImage1.src = '/Images/Vector-ornament.png';
+            logoImage1.src = 'Images/Vector-ornament.png';
             const logoImage2 = document.createElement('img');
-            logoImage2.src = '/Images/Vector-ornament.png';
+            logoImage2.src = 'Images/Vector-ornament.png';
             const logoImage3 = document.createElement('img');
-            logoImage3.src = '/Images/Vector-ornament.png';
+            logoImage3.src = 'Images/Vector-ornament.png';
             const homePageButton = document.createElement('button');
                 homePageButton.type = 'button';
                 homePageButton.classList.add('redirect-buttons');

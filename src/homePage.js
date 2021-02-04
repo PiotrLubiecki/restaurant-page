@@ -37,7 +37,7 @@ const homePageRender =(() => {
         contentDiv.appendChild(homePageInfo);
         }
         const render = function(){
-            let backgImage = '/Images/homePicture.jpg'
+            let backgImage = 'Images/homePicture.jpg'
             repeatingElements.repeatingButtonDiv();
             repeatingElements.repeatingHeaderDiv(backgImage);
             homePage();

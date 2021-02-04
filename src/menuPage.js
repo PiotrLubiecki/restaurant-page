@@ -80,7 +80,7 @@ const menuPageRender =(() => {
         contentDiv.appendChild(menuInfo)
     }
     const render = function(){
-        let backgImage = '/Images/menuPicture.jpeg'
+        let backgImage = 'Images/menuPicture.jpeg'
         repeatingElements.repeatingButtonDiv();
         repeatingElements.repeatingHeaderDiv(backgImage);
         menuPage();
